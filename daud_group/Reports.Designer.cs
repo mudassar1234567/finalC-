@@ -40,6 +40,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "<--Back";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // label2
             // 
@@ -57,11 +58,12 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1051, 499);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
             this.Name = "Reports";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Reports_Load);
             this.ResumeLayout(false);
 
         }
