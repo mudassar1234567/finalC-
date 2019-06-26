@@ -1,0 +1,8 @@
+resin 25kg
+chowk 5kg
+one pack 1400grm  1.4
+titanium 400grm   0.4
+dop 0.25kg
+uvtax 5grm        0.005
+_________________
+      32.1

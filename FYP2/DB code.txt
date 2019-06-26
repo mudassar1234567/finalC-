@@ -1,0 +1,46 @@
+CREATE TABLE [coustomer] (
+  [ID] <type>,
+  [Name] <type>,
+  [phone] <type>,
+  [order] <type>,
+  PRIMARY KEY ([ID])
+);
+
+CREATE TABLE [Order] (
+  [oder_no] <type>,
+  [Order] <type>,
+  [Quantity] <type>,
+  [id] <type>,
+  [Advance] <type>,
+  [Balance] <type>,
+  [Address] <type>,
+  [Contact] <type>,
+  PRIMARY KEY ([oder_no])
+);
+
+CREATE INDEX [FK] ON  [Order] ([id]);
+
+CREATE TABLE [Product] (
+  [ID] <type>,
+  [Name] <type>,
+  [Quantity] <type>,
+  [Price] <type>,
+  PRIMARY KEY ([ID])
+);
+
+CREATE TABLE [Raw Material] (
+  [Material] <type>,
+  [Quantity] <type>,
+  [Cost] <type>,
+  [Purchase from] <type>,
+  [Date] <type>
+);
+
+CREATE TABLE [Sales] (
+  [Material] <type>,
+  [Quantity] <type>,
+  [Rate] <type>,
+  [Area] <type>,
+  [Sold by] <type>,
+  [Date] <type>
+);
